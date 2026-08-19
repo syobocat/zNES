@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+#
+# SPDX-License-Identifier: MIT-0
+
+name = "znes"
+compatibility_date = "2026-08-19"
+workers_dev = false
+
+[assets]
+directory = "./zig-out/web"
+
+[[routes]]
+pattern = "nes.syobon.net"
+custom_domain = true
