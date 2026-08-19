@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Cycle-stepped Ricoh 2A03 CPU core: an NMOS 6502 with decimal mode removed.
 //!
 //! `step` executes exactly one bus cycle per call, matching the contract of

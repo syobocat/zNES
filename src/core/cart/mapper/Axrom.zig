@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Mapper 7 (AxROM / ANROM, AN1ROM, AMROM, AOROM): the whole $8000-$FFFF
 //! window switches as one 32 KiB bank, and the same register picks which
 //! single nametable the PPU sees.

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 // The page's half of the emulator: a canvas, an audio device, a keyboard and
 // a gamepad. Everything about *being an emulator* is on the other side of the
 // wasm boundary, in the same `App` the desktop build runs; this file is the

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! The length counter shared by the pulse, triangle and noise channels: a
 //! down-counter loaded from a lookup table that silences its channel when it
 //! reaches zero, clocked twice per frame sequence.

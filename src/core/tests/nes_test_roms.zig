@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Slower integration tests that execute real test ROMs embedded from
 //! `roms/`. Run with `zig build test-full`; kept out of `zig build test`
 //! since these run hundreds of millions of instructions.

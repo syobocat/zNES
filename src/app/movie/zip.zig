@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Just enough of the zip format to pull one named member out of an archive
 //! that is already in memory.
 //!

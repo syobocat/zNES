@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! One loaded ROM and the console running it.
 //!
 //! `Cartridge` borrows the ROM image it was loaded from and `Nes` borrows the

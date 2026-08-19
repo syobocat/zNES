@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Mapper 3 (CNROM): PRG fixed as on NROM, CHR ROM switched in 8 KiB banks by
 //! writing anywhere in $8000-$FFFF.
 //!

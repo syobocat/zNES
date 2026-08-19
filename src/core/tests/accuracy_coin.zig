@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! AccuracyCoin: the full 141-test accuracy suite, run headless as a
 //! single test. znes scores 141/141; this pins that down so a regression
 //! anywhere in the CPU, PPU, APU or DMA shows up as a named failure.

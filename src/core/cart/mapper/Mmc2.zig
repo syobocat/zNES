@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Mappers 9 and 10 (MMC2 / PxROM and MMC4 / FxROM): two 4 KiB CHR windows
 //! whose bank numbers are chosen not by the CPU but by *what the PPU just
 //! fetched*.

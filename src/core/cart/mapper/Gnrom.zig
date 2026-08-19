@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! The GNROM-like boards: a single 8-bit latch holds both banks, and any
 //! write to $8000-$FFFF replaces the whole thing.
 //!

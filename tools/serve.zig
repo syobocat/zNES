@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! A static file server for developing the web app, and nothing more.
 //!
 //! It exists because `index.html` cannot be opened off the filesystem: a

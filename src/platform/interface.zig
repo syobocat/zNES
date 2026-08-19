@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! What `App` and a platform backend agree on: the vocabulary they pass across
 //! the seam, and a compile-time check that a backend actually implements it.
 //!

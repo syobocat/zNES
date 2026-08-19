@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! The application: one screen, at most one loaded ROM, and everything that
 //! has to happen to get from one frame to the next.
 //!

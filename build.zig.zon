@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 .{
     .name = .znes,
     .version = "0.0.0",
@@ -20,5 +24,6 @@
         "build.zig.zon",
         "src",
         "tools",
+        "LICENSES",
     },
 }

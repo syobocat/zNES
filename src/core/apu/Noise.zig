@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Noise channel: a 15-bit linear-feedback shift register clocked from a
 //! period lookup table, gated by the same envelope and length counter design
 //! as the pulse channels.

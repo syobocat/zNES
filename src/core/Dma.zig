@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! OAM DMA ($4014) and DMC sample-fetch DMA.
 //!
 //! Both steal CPU cycles rather than running alongside the CPU: while either

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Browser-backed platform: a canvas, a Web Audio device, and whatever the
 //! page's key handlers have most recently told us is held. This is the web
 //! build's answer to `SdlPlatform`, and its public surface is deliberately

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Mapper 0 (NROM): no bank switching at all. 16 or 32 KiB of PRG ROM (16 KiB
 //! appears twice across $8000-$FFFF), up to 8 KiB of CHR ROM or RAM, fixed
 //! mirroring from the header, and an optional 8 KiB PRG RAM window.

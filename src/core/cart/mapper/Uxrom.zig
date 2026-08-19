@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Mapper 2 (UxROM / UNROM, UOROM): one switchable 16 KiB PRG window at
 //! $8000-$BFFF, the last bank wired permanently to $C000-$FFFF, and no CHR
 //! banking at all.

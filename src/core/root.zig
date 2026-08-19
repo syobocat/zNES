@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! The `znes` module: an NTSC NES, and nothing that knows how to show one.
 //!
 //! `Nes` is the console and owns everything else. The rest of what is exported

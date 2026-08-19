@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Static decode table for the RP2A03's instruction set: every official
 //! opcode plus the documented unofficial ones. The NES's 6502 core lacks BCD
 //! but is otherwise a stock NMOS 6502, including its read-modify-write and

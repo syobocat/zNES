@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Mapper 4 (MMC3 / TxROM): two switchable 8 KiB PRG windows plus two fixed
 //! ones, six switchable CHR windows (two 2 KiB and four 1 KiB), software
 //! mirroring control, and a scanline IRQ counter driven off PPU A12.

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Resampling from the console's clock to the audio device's, and the
 //! feedback that keeps the device's queue at a steady depth.
 //!

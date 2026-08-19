@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Ricoh 2C02 PPU: background and sprite pipelines, scrolling, sprite
 //! evaluation, sprite 0 hit and overflow, and VBlank/NMI timing, all driven
 //! dot by dot from `tick`.

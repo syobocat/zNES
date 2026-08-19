@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Cartridge mapper interface.
 //!
 //! Mappers are a tagged union rather than a vtable: the supported set is known

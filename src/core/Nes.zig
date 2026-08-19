@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! The whole console: owns every component and drives the master clock.
 //!
 //! The CPU clock is the fundamental unit. Every CPU cycle `stepCycle` advances

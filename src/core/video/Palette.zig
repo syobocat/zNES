@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! The 2C02's master palette as RGB, generated from the composite signal it
 //! actually emits: 512 entries indexed `(emphasis << 6) | (luma << 4) | hue`,
 //! i.e. the 64-entry palette once for each of the 8 combinations of PPUMASK's

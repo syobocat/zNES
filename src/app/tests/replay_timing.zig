@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Where a frame begins, checked against a ROM that can tell.
 //!
 //! Replaying a movie only works if the console reads each record at the same

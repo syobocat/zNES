@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Mapper 13 (CPROM): NROM's fixed 32 KiB of PRG, and 16 KiB of CHR **RAM**
 //! banked as two 4 KiB windows -- the left pattern table fixed to page 0, the
 //! right one switchable.

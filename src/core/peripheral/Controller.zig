@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Standard NES controller: the 8-bit parallel-in/serial-out shift register
 //! behind $4016 (player 1) and $4017 (player 2).
 //!

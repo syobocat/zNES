@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! NTSC timing: the shape of a frame, and the clock it runs at.
 //!
 //! Its own file because it is not the PPU's alone. The PPU counts dots,

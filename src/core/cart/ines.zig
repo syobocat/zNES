@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! The iNES and NES 2.0 file headers: the 16 bytes in front of a ROM image,
 //! and what they can and cannot be trusted to say.
 //!

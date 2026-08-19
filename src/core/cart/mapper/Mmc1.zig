@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Mapper 1 (MMC1 / SxROM). CPU writes to $8000-$FFFF load a 5-bit serial
 //! shift register one bit at a time, LSB first; the fifth write commits the
 //! assembled value into one of four internal registers, chosen by which 8 KiB

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Delta modulation channel: streams 1-bit delta-encoded samples out of
 //! cartridge PRG space, moving a 7-bit output level by +/-2 per bit.
 //!

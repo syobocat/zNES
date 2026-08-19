@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! The stored form of a cartridge's battery RAM, and the rules for finding it.
 //!
 //! Both backends keep saves in a flat namespace of named slots -- files in a

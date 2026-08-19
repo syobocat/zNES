@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! The NES Zapper: a light gun that reports two bits on a controller port --
 //! whether its photodiode is seeing light right now, and whether its trigger
 //! is being squeezed.

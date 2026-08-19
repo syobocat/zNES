@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Desktop entry point: parses the command line, runs the loop, and is the
 //! only place in the desktop build that touches the filesystem.
 //!

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+
+SPDX-License-Identifier: MIT-0
+-->
+
 # zNES の現在地
 
 Zig で書かれた NES エミュレータ。デスクトップ（SDL3）とブラウザ（WebAssembly）の
@@ -13,33 +19,6 @@ NTSC 版の NES / ファミリーコンピュータ1台。それ以外の機械�
 - PAL 版と Dendy
 - チップのリビジョン違い（NEC 版 MMC3、初期リビジョンの 2A03 など）
 - アーケード用の PPU（2C03 / 2C04 / 2C05）を積んだ Vs. System や PlayChoice-10
-
-## 動かし方
-
-- `zig build run -- <ROM ファイル>` でデスクトップ版が起動する。
-  引数なしで起動して、あとから ROM をドラッグ＆ドロップしてもよい。
-- `zig build wasm` でウェブ版を `zig-out/web` に出力する。
-- `zig build serve` でウェブ版をビルドして HTTP で配信する。
-  ブラウザで開き、ROM をドラッグ＆ドロップするか、ボタンから選ぶ。
-- `zig build test` で単体テストを実行する。
-- `zig build test-full` で単体テストに加えて ROM を使った統合テストを実行する。
-  数分かかる。
-
-## 操作
-
-- 方向キー: 十字キー
-- Z: A ボタン
-- X: B ボタン
-- Enter: START
-- 右 Shift: SELECT
-- Ctrl+R（macOS では Cmd+R）: リセット
-- Ctrl+Shift+R: 電源の入れ直し
-- Ctrl+Z（macOS では Cmd+Z）: ポート2をコントローラと Zapper とで切り替える
-- マウス: Zapper の照準。左ボタンが引き金
-- ゲームパッド: 接続すると先着2台が2つのポートを担当する
-
-ウェブ版はキー割り当てが同じで、リセットは R、電源の入れ直しは Shift+R。
-ゲームパッドは使えるが、Zapper の照準はマウスまたはタッチになる。
 
 ## 精度
 

@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+#
+# SPDX-License-Identifier: MIT-0
+
 [submodule "src/core/tests/roms/nes-test-roms"]
 	path = src/core/tests/roms/nes-test-roms
 	url = https://github.com/christopherpow/nes-test-roms.git

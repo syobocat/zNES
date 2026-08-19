@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! A recorded input movie, and the cursor that plays one back.
 //!
 //! A movie is a list of per-frame controller states plus the occasional

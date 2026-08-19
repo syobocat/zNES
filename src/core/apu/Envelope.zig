@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! The envelope generator shared by the two pulse channels and the noise
 //! channel: a 4-bit decay counter fed by a divider, clocked once per quarter
 //! frame.

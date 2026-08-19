@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 // The audio device's end of the queue: a ring buffer the emulator fills a
 // frame at a time and the audio thread drains 128 samples at a time.
 //

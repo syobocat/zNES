@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! SDL3-backed platform: window, texture presentation, audio output, and
 //! input from the keyboard and from gamepads. This is the only file in the
 //! project that imports `sdl` directly. Its public surface deliberately never

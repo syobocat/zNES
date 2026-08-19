@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! One of the APU's two pulse channels: a duty-cycle sequencer gated by an
 //! envelope, a sweep unit and a length counter.
 //!

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! FCEUX `.fm2` movie parsing.
 //!
 //! An fm2 file is plain text: a run of `key value` header lines, then one

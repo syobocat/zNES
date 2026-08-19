@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! The module graph, bottom to top:
 //!
 //!     znes       the emulation core, which knows nothing else

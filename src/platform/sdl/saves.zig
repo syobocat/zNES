@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Where a cartridge's battery-backed RAM is kept on disk.
 //!
 //! Its own file because none of it is SDL. The only thing this needs from the

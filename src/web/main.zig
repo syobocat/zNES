@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Web entry point: the surface the page calls, and nothing else.
 //!
 //! A wasm module has no `main` -- the browser instantiates it and then calls

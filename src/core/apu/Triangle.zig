@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Triangle channel: a 32-step triangle-wave sequencer gated by both a length
 //! counter and a linear counter.
 //!

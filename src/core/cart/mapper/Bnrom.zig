@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! Mapper 34: two boards that share nothing but a number.
 //!
 //!  - **BNROM** (Nintendo/Irem): 32 KiB of PRG switched by writing anywhere

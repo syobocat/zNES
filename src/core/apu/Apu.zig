@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! RP2A03 APU: two pulse channels, a triangle, a noise channel, the DMC, the
 //! frame sequencer that clocks their envelopes/sweeps/length counters, and the
 //! non-linear mixer.

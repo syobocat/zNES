@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! The text drawn over the picture: a transient message, a replay counter,
 //! and what the window shows when it has nothing to run.
 //!

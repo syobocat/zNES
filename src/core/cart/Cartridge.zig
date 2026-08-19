@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! iNES / NES 2.0 ROM loading, and the storage a cartridge board carries.
 //!
 //! **A cartridge borrows the ROM image it was loaded from.** `prg_rom` and

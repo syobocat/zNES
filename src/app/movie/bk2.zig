@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+//
+// SPDX-License-Identifier: MIT-0
+
 //! BizHawk `.bk2` movie parsing.
 //!
 //! A bk2 is a zip archive; the member that matters is `Input Log.txt`:
