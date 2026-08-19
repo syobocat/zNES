@@ -1,0 +1,24 @@
+.{
+    .name = .znes,
+    .version = "0.0.0",
+    // Together with the name this is a globally unique package identifier,
+    // generated once and never changed. A fork should regenerate it: keeping
+    // it would be a claim on this package's identity.
+    .fingerprint = 0xb609c6aae7992aee,
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .sdl3 = .{
+            .url = "git+https://codeberg.org/7Games/zig-sdl3?ref=v0.2.2#83c694024f23cbacfa36fcd8fca1c57d4957203e",
+            .hash = "sdl3-0.2.2-NmT1Q-2jKQBa4uSXUwuVwdmXpXe-eYwim7Wkyx531v6O",
+        },
+    },
+    // Everything `build.zig` reaches for. `tools` is in here because the
+    // `serve` step builds `tools/serve.zig`, so a packaged copy without it
+    // cannot run that step.
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "tools",
+    },
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>znes</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        background: #111;
+        color: #888;
+        font: 13px/1.6 system-ui, sans-serif;
+      }
+
+      /* The canvas holds whole device pixels, so the browser is never asked
+         to resample the picture; `pixelated` keeps it sharp if a small
+         viewport forces it to shrink anyway. */
+      canvas {
+        max-width: 100%;
+        image-rendering: pixelated;
+        background: #000;
+      }
+
+      button {
+        font: inherit;
+        color: inherit;
+        background: #222;
+        border: 1px solid #444;
+        border-radius: 4px;
+        padding: 0.4em 1em;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #2a2a2a;
+      }
+
+      body.dragging canvas {
+        outline: 2px dashed #666;
+      }
+
+      kbd {
+        font: inherit;
+        color: #bbb;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="screen" width="768" height="720"></canvas>
+    <button id="load" type="button">Load a ROM&hellip;</button>
+    <p>
+      <kbd>&larr;&uarr;&darr;&rarr;</kbd> d-pad &middot; <kbd>Z</kbd> A &middot;
+      <kbd>X</kbd> B &middot; <kbd>Enter</kbd> start &middot;
+      <kbd>Right Shift</kbd> select &middot; <kbd>R</kbd> reset &middot;
+      <kbd>Shift+R</kbd> power cycle
+    </p>
+    <input id="picker" type="file" accept=".nes,.fm2,.fm3,.bk2" hidden />
+    <script type="module" src="./znes.js"></script>
+  </body>
+</html>
