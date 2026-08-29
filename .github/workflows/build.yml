@@ -1,0 +1,28 @@
+# SPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>
+#
+# SPDX-License-Identifier: MIT-0
+
+name: Publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - name: Build
+        run: |
+          nix develop '#build' -c zig build wasm -Doptimize=ReleaseSmall
+          nix develop '#build' -c minify -i -r --html-keep-end-tags zig-out/web
+      - name: Publish
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          wranglerVersion: "4.127.1"
